@@ -1,0 +1,52 @@
+/* register page */
+.register {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 15vh;
+  margin-bottom: 10vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.register h1 {
+  margin-bottom: 5vh;
+}
+.form-group {
+  margin-bottom: 3vh;
+}
+label {
+  display: block;
+  font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+select {
+  width: 60vw;
+  padding: 1vw;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 2vh;
+}
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 1vh;
+}
+.success-message {
+  color: green;
+  font-size: 14px;
+  margin-top: 1vh;
+}
+button {
+  margin-top: 2vh;
+  padding: 1vw 2vh;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

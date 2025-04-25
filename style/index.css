@@ -1,0 +1,117 @@
+/* brief explanation about the web */
+.brief {
+  justify-self: center;
+  width: 90%;
+  font-family: Verdana, sans-serif;
+  color: #252525;
+}
+.brief h1 {
+  font-size: 4vh;
+  font-style: italic;
+}
+.brief p {
+  font-size: 2.5vh;
+  text-align: justify;
+  margin: 0;
+}
+
+/* best selling section */
+.best-selling {
+  margin-top: 10vh;
+  justify-self: center;
+  width: 90%;
+  font-family: Verdana, sans-serif;
+  color: #252525;
+}
+.best-selling h1 {
+  margin-bottom: 5vh;
+  font-size: 4vh;
+  font-style: italic;
+}
+.best-selling img {
+  width: 15vw;
+  filter: drop-shadow(1vw 1vh 10px #9b9b9b);
+  transition: filter 0.3s ease;
+}
+.best-selling img:hover {
+  filter: drop-shadow(0vw 0vh 0px #ffffff);
+}
+.bss {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* recommended section */
+.recommended {
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  justify-self: center;
+  width: 90%;
+  font-family: Verdana, sans-serif;
+  color: #252525;
+}
+.recommended h1 {
+  margin-bottom: 5vh;
+  font-size: 4vh;
+  font-style: italic;
+}
+.recommended img {
+  width: 15vw;
+  filter: drop-shadow(1vw 1vh 10px #9b9b9b);
+  transition: filter 0.3s ease;
+}
+.recommended img:hover {
+  filter: drop-shadow(0vw 0vh 0px #ffffff);
+}
+.rs {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .brief,
+  .best-selling,
+  .recommended {
+    margin-bottom: 5vh;
+    margin-top: 0;
+    width: 80%;
+  }
+
+  /* Brief explanation about the web */
+  .brief h1 {
+    font-size: 3vh;
+  }
+  .brief p {
+    font-size: 2vh;
+  }
+
+  /* Best selling section */
+  .bss {
+    display: flex;
+    justify-content: space-between;
+  }
+  .bss a:last-child {
+    display: none;
+  }
+  .best-selling img {
+    width: 20vw;
+  }
+  .best-selling h1 {
+    font-size: 3vh;
+  }
+
+  /* Recommended section */
+  .recommended img {
+    width: 20vw;
+  }
+  .rs a:last-child {
+    display: none;
+  }
+  .rs {
+    display: flex;
+    justify-content: space-between;
+  }
+  .recommended h1 {
+    font-size: 3vh;
+  }
+}
