@@ -8,8 +8,8 @@ body {
 }
 
 body {
-  background-image: url("component/bg.jpg");
-  background-size: 130%;
+  background-image: url("../component/bg.jpg");
+  background-size: cover;
   overflow-y: hidden;
   overflow-x: hidden;
 }
